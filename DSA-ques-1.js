@@ -10,7 +10,7 @@ function removeDuplicateValue(arr) {
     for (let i = 0; i < arrLength; i++) {
 
         isDuplicateValue = false; // Reset the flag for each new element
-
+        
         // Check if the current element already exists in the uniqueArr
         for (let j = 0; j < uniqueArr.length; j++) {
             if (arr[i] === uniqueArr[j]) {
@@ -26,7 +26,7 @@ function removeDuplicateValue(arr) {
     }
 
     // Output the array with duplicates removed
-    console.log("New Array:", uniqueArr);
+    // console.log("New Array:", uniqueArr);
 }
 
 // Test the function
